@@ -23,7 +23,7 @@ public class UserController {
 //    }
 
     // Retrieve all users from cache
-    @GetMapping("/users")
+    @GetMapping("/users")s
     public String  getAllUsers() {
         return "running";
     }
